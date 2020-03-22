@@ -4,8 +4,8 @@ buildscript {
       // jcenter()
       maven { 
         // bypass jcenter() because openshift supports gradle < 1.6 which has no jcenter()
-        url "http://repository.codehaus.org"
-        url "http://jcenter.bintray.com"
+        url "https://repository.codehaus.org"
+        url "https://jcenter.bintray.com"
         // url "http://dl.bintray.com/rtyler/jruby"
         // url "http://dl.bintray.com/jfrog/jfrog-jars"
       }
@@ -34,7 +34,7 @@ allprojects {
     repositories {
       // mavenCentral()
       maven { 
-        url 'http://jcenter.bintray.com'
+        url 'https://jcenter.bintray.com'
       }
     }
 
